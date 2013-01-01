@@ -1,0 +1,34 @@
+#include<math.h>
+#include<string>
+#include<iostream.h>
+#include"mylib.h"
+
+program test1;
+
+var
+	arm,leg: money; 	//currency
+	a,b,ab:  string;	//string variables
+	c,d,cd:  int;		//integers
+	e,gee:   float;		//float
+begin				//start of main code
+	a := "hello";
+	b := " world";
+	ab := a+b;		//merge strings
+
+	c := 543;
+	d := 12,345;
+	cd := c+d;		//add unsigned ints
+
+	leg := $12,123.05;
+	e := 444,444.13;
+	gee := c+e;
+
+	read[A:file.txt];
+	write[A:test];
+
+	for a := b to ab do
+		readln(string);
+	end do;
+
+	return 0;
+end.

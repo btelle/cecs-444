@@ -1,0 +1,54 @@
+// comment
+/* comment */
+{* comment *}
+
+#include<cmath.h>;
+#include"myLibrary.c";
+
+import java.util.math;
+
+int main() {
+	int myInt = 123456789;
+	int myInvalidInt = 99999999999999;
+	int ret = 0;
+
+	double myDub = 1,234,567.89;
+	double myInvalidDub = 99999999999999.999999999999999;
+
+	string myStr = "I am a string!";
+	currency myCur = $123,456.78;
+	sci mySciNot = 1.234^+33;
+	File myFile = new File([C:windows.c]);
+	myFile.Read();
+	char[] = "Char array!";
+
+	if (myInt!! == myStr)	// huh?
+		myInt := myInvalidInt++;
+	
+	for (int i:=0; i<=3477; --i){
+		if(i/2 <> 0)
+			ret +- i;
+		else
+			ret -+ i;
+		ret /= i - 3;
+		writeln "i: "+i+"\n";
+	}
+
+	for (int j=10; j>=3; j>>)
+		writeln j<<;
+
+	i, j := 0;
+	return ret;	
+} // end main
+
+class File {
+	public src;
+
+	File(fName){ //constructor
+		this.src = fName;
+	}
+	
+	Read(length=:1024){
+		return read_from_file(this.src, length);
+	}
+};

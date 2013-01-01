@@ -1,0 +1,40 @@
+// comment
+/* also a comment */
+{* and another *}
+
+#include<cmath.h>;
+#include"cshell.c";
+
+import java.util.math;
+
+int main()
+{
+	int x5 = a + 34.56 + tag_4_fish + 123zz;
+	y = y + -85899345 + 3.1419;
+	
+	var cur = $123,789.00 + $.00 * $23.99++;
+	var sci = (1.223^+123);
+	var file := [Y:math.h];
+	var str[] <> "test string";
+	
+	if(file <= str or file >= sci)
+	{
+		for(int i=10; i!=8; i--)
+		{
+			i >> 2;
+			if(i!!)
+				break;
+		}
+	}
+	
+	var i = test(-3.141,596,2);
+	
+	return 0;
+}
+/**
+ * return integer
+ */
+int test(double i)
+{
+	return i / 1;
+}

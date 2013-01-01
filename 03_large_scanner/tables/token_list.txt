@@ -1,0 +1,51 @@
+1:identifier
+2:integer
+3:real literal
+4:library
+5:scientific notation
+6:device/file
+7:string literal
+8:comment
+9:currency literal
+10:decrement op
+11:increment op
+12:compound op (+-)
+13:compound op (-+)
+14:greater than or equal op
+15:less than or equal op
+16:not equal op
+17:not equal op
+18:equivalence op
+19:parallel assignment
+20:left shift
+21:right shift
+22:assignment by quotient
+23:boolean conversion
+24:grave
+25:less than
+26:greater than
+27:left bracket
+28:right bracket
+29:left brace
+30:right brace
+31:ampersat
+32:ampersand
+33:pound
+34:exclamation mark
+35:tilde
+36:single quote
+37:double quote
+38:dollar sign
+39:colon
+40:simple op
+41:period
+42:comma
+43:addition op
+44:subtraction op
+45:division op
+46:multiplication op
+47:assignment op
+48:caret
+49:left parenthesis
+50:right parenthesis
+
